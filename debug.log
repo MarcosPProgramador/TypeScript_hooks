@@ -697,3 +697,4 @@
 [1012/122539.003:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Davi proenÃ§a\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\e0ea2bcb-8c7e-4151-97c0-32fe1e7a6c51: O sistema não pode encontrar o caminho especificado. (0x3)
 [1012/122539.002:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentou-se acessar um processo de saída. (0xc000010a)
 [1012/124553.837:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1013/125457.469:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)

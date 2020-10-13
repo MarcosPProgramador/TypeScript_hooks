@@ -14,6 +14,8 @@ const Light = () => {
     function themes({ target }) {
         const [dark, light] = [
             {
+                selection: '#fff',
+
                 primary: '#2c2e3e',
                 secondary: '#474a5f',
                 text: '#fff',
@@ -21,11 +23,12 @@ const Light = () => {
                 'rgba-0': '#2f9d',
             },
             {
-                primary: '#f7f7f7',
-                secondary: 'rgb(210, 216, 219)',
+                selection: '#7c7d8d',
+                primary: '#cdcdd6',
+                secondary: '#7c7d8d',
                 text: '#111',
                 'text-secondary': '#495057',
-                'rgba-0': '#6c757d',
+                'rgba-0': '#ffffff',
             },
         ]
 

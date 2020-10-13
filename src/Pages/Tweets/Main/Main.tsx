@@ -13,9 +13,8 @@ import {
     Tweets,
     Tab,
     WrapperTweets,
-    Tweet,
 } from './sMain'
-
+import Tweet from './Tweet/Tweet'
 const Main: React.FC = (): JSX.Element => {
     return (
         <Container>

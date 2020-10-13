@@ -17,9 +17,10 @@ export const GlobalStyle = createGlobalStyle`
     }
     ::selection{
         background-color: var(--rgba-0);
-        color: #fff;
+        color: var(--selection);
     }
     :root{
+        --selection: #fff;
         --primary: #2c2e3e;
         --secondary: #474a5f;
         --text : #fff; 
@@ -49,11 +50,11 @@ export const GlobalStyle = createGlobalStyle`
     }
     .nh3{
        font-size: min(15px, max(2vw, 10px)); 
-       line-height: min(11px, max(2vw, 6px)); 
+       line-height: 0;
     }
     .nh4{
        font-size: min(12px, max(1vw, 10px)); 
-       line-height: min(9px, max(1vw, 4px)); 
+       line-height: 0;
     }
     /* rounded */
     .bdrs-50p{

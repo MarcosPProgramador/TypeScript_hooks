@@ -31,9 +31,9 @@ export const Avatar = styled.div`
     flex-shrink: 0;
     width: 40px;
     height: 40px;
-    @media(max-width: 568px){
+    @media (max-width: 568px) {
         width: max(6vw, 20px);
-    height: max(6vw, 20px);
+        height: max(6vw, 20px);
     }
     background-color: var(--rgba-0);
 `
@@ -44,24 +44,74 @@ export const DataName = styled.div`
     padding-left: 2%;
 `
 export const FullName = styled.div`
-
+    animation: width-animate 1s ease forwards;
+    width: 0;
     background-color: ${(props) =>
         props.children ? 'transparent' : 'var(--secondary)'};
-    width: 200px;
     height: ${(props) => (props.children ? 'unset' : '10px')};
+    @keyframes width-animate {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 200px;
+        }
+    }
 `
 export const Username = styled.div`
+    animation: animate-width 1s ease 200ms forwards;
+    width: 0;
     color: var(--text-secondary);
     font-size: 13px;
     margin-top: 5px;
     background-color: ${(props) =>
         props.children ? 'transparent' : 'var(--secondary)'};
-    width: 100px;
     height: ${(props) => (props.children ? 'unset' : '6px')};
+
+    @keyframes animate-width {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 100px;
+        }
+    }
 `
 
 // Tweets
-export const Tweets = styled.div``
-export const Tab = styled.div``
-export const WrapperTweets = styled.div``
-export const Tweet = styled.div``
+export const Tweets = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+export const Tab = styled.h4`
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 15px;
+    &::after {
+        border-radius: 50rem;
+        content: '';
+        bottom: 6px;
+        transform: translateX(-50%);
+        left: 50%;
+        width: 80px;
+        height: 4px;
+        background-color: var(--rgba-0);
+        position: absolute;
+    }
+    &::before {
+        bottom: 0;
+        transform: translateX(-50%);
+        left: 50%;
+        width: 40px;
+        height: 4px;
+        background-color: var(--rgba-0);
+        position: absolute;
+        border-radius: 50rem;
+        content: '';
+    }
+`
+export const WrapperTweets = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+

@@ -50,11 +50,11 @@ export const GlobalStyle = createGlobalStyle`
     }
     .nh3{
        font-size: min(15px, max(2vw, 10px)); 
-       line-height: 0;
+       line-height: min(15px, max(2vw, 10px)); 
     }
     .nh4{
        font-size: min(12px, max(1vw, 10px)); 
-       line-height: 0;
+       line-height: min(12px, max(1vw, 10px)); 
     }
     /* rounded */
     .bdrs-50p{
@@ -89,6 +89,9 @@ export const GlobalStyle = createGlobalStyle`
     }
     .mb-1{
         margin-bottom: 10px;
+    }
+    .mt-2{
+        margin-top: 20px;
     }
     .ml-1{
         margin-left: 10px;

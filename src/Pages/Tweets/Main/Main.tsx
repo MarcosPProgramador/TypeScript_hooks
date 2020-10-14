@@ -38,6 +38,7 @@ const Main: React.FC = (): JSX.Element => {
                 <Tab className="txa-c">Init Tweets</Tab>
                 <WrapperTweets>
                     <Tweet />
+            
                 </WrapperTweets>
             </Tweets>
         </Container>

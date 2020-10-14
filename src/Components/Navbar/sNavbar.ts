@@ -3,12 +3,10 @@ import { Android } from '@Styles/Icons'
 export const Wrapper = styled.div`
     height: 100%;
     max-width: 1280px;
-    & a{
-
-    }
 `
 export const Container = styled.div`
     position: fixed;
+    z-index: 20;
     height: 54px;
     width: 100%;
     background-color: var(--secondary);

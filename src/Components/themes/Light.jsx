@@ -23,12 +23,12 @@ const Light = () => {
                 'rgba-0': '#2f9d',
             },
             {
-                selection: '#7c7d8d',
-                primary: '#cdcdd6',
-                secondary: '#7c7d8d',
-                text: '#111',
-                'text-secondary': '#495057',
-                'rgba-0': '#ffffff',
+                selection: '#fff',
+                primary: '#f0f2f4',
+                secondary: '#98a1b3',
+                text: '#2b303b',
+                'text-secondary': '#6c7893',
+                'rgba-0': '#26F7FD',
             },
         ]
 

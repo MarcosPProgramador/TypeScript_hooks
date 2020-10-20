@@ -20,11 +20,11 @@ const Datas: React.FC = (): JSX.Element => {
                             <HomeIcon />
                             <Link href="/">Home</Link>
                         </Tabs>
-                        <Tabs>
+                        <Tabs className="d-f">
                             <GroupsIcon />
                             <Link href="/">Groups</Link>
                         </Tabs>
-                        <Tabs>
+                        <Tabs className="d-f">
                             <VideosIcon />
                             <Link href="/">Videos</Link>
                         </Tabs>

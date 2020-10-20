@@ -3,7 +3,7 @@
 
 ### Preview
 
-![printImage](./src/Assets/img/layout.png)
+![printImage](./src/Assets/img/Layout.png)
 **technologies used**
 
 -   HTML

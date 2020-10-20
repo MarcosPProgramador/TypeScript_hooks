@@ -700,3 +700,8 @@
 [1013/125457.469:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema n„o pode encontrar o caminho especificado. (0x3)
 [1014/094654.502:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema n„o pode encontrar o caminho especificado. (0x3)
 [1015/112837.255:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema n„o pode encontrar o caminho especificado. (0x3)
+[1019/225753.438:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema n„o pode encontrar o caminho especificado. (0x3)
+[1020/124343.082:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Davi proen√ßa\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\01333f16-3a14-419b-b609-07ca52f807c2: O sistema n„o pode encontrar o caminho especificado. (0x3)
+[1020/124343.139:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Davi proen√ßa\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\2d9a3833-6301-4f61-884a-ec121cdf50c7: O sistema n„o pode encontrar o caminho especificado. (0x3)
+[1020/124343.140:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Davi proen√ßa\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\d6112761-d448-40d7-800d-5aea68440d43: O sistema n„o pode encontrar o caminho especificado. (0x3)
+[1020/124343.140:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema n„o pode encontrar o caminho especificado. (0x3)

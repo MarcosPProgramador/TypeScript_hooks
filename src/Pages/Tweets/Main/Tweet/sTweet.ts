@@ -96,22 +96,3 @@ export const CommentIcon = styled(Comment)`
 export const ShareIcon = styled(ShareFill)`
     ${styleIcon}
 `
-export const Load = styled.div`
-
-    & > svg {
-        & > path {
-            stroke-dasharray: 150;
-            stroke: var(--rgba-0);
-        }
-        animation: animate-load ease 500ms infinite;
-        @keyframes animate-load {
-            0%,
-            100% {
-                transform: rotateZ(0);
-            }
-            50% {
-                transform: rotateZ(360deg);
-            }
-        }
-    }
-`

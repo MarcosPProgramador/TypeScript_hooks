@@ -10,6 +10,14 @@ export const GlobalStyle = createGlobalStyle`
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     }
+    *::-webkit-scrollbar{
+        width: 3px;
+        height: 5px;
+    }
+    *::-webkit-scrollbar-thumb{
+        border-radius: 50rem;
+        background-color: var(--rgba-0);
+    }
     html, body, #root{
         height: 100%;
         min-width: 260px;

@@ -4,7 +4,7 @@ export const Container = styled.div`
     width: 200px;
     padding: 50px 10px;
     position: relative;
-    @media (max-width: 1108px){
+    @media (max-width: 1108px) {
         display: none;
     }
 `
@@ -74,19 +74,59 @@ export const Users = styled.div`
 `
 export const UserTo = styled.div`
     margin-top: 30px;
-
 `
 export const User = styled.div`
     margin-top: 8px;
-    justify-content: flex-start;  
+    justify-content: flex-start;
 `
 export const UserAvatar = styled.div`
     width: 35px;
     height: 35px;
     border: 1px solid var(--secondary);
     margin-right: 15px;
-
 `
 export const Username = styled.div`
     font-size: 14px;
+`
+export const UsersOn = styled.div`
+    margin-top: 20px;
+`
+export const UsersOnWrapper = styled.div`
+    position: relative;
+    overflow: hidden;
+`
+export const UsersOnBar = styled.div`
+    z-index: 1;
+
+    width: 100%;
+    position: absolute;
+    user-select: none;
+    cursor: pointer;
+    background-color: var(--secondary);
+    justify-content: space-around;
+    & > span:nth-child(1) {
+        font-weight: bold;
+    }
+    & > span:nth-last-child(1) {
+        display: block;
+        border-style: solid;
+        border-color: var(--rgba-0) transparent transparent transparent;
+        border-width: 5px 5px 0px 5px;
+    }
+`
+
+export const UserShow = styled.div`
+    max-width: 200px;
+    font-size: 10px;
+    color: var(--secondary);
+    padding: 38px 50px 15px 5px;
+    overflow-y: auto;
+
+    transform: translateY(-136px);
+    transition: 500ms transform ease-in-out;
+    height: 100px;
+    &.active {
+        transform: translateY(0);
+    }
+    
 `

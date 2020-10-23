@@ -705,3 +705,5 @@
 [1020/124343.139:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Davi proen√ßa\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\2d9a3833-6301-4f61-884a-ec121cdf50c7: O sistema n„o pode encontrar o caminho especificado. (0x3)
 [1020/124343.140:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Davi proen√ßa\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\d6112761-d448-40d7-800d-5aea68440d43: O sistema n„o pode encontrar o caminho especificado. (0x3)
 [1020/124343.140:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema n„o pode encontrar o caminho especificado. (0x3)
+[1022/133031.060:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema n„o pode encontrar o caminho especificado. (0x3)
+[1022/154449.544:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema n„o pode encontrar o caminho especificado. (0x3)

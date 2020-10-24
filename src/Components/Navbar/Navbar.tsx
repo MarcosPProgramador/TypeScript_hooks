@@ -1,14 +1,32 @@
 import React from 'react'
-import { Container, Wrapper, Padding, LogoIcon } from './sNavbar'
+import {
+    Container,
+    Wrapper,
+    Padding,
+    LogoIcon,
+    NavbarN,
+    NavbarTab,
+    NavbarTabEl,
+} from './sNavbar'
+import { Link } from 'react-router-dom'
 const Navbar: React.FC = (): JSX.Element => {
     return (
         <>
             <Container>
                 <Wrapper className="m-0_a d-f ai-c jc-sb">
-                    <a href="/" className="d-b">
+                    <Link to="/" className="d-b">
                         <LogoIcon />
-                    </a>
-                    
+                    </Link>
+                    <NavbarN>
+                        <NavbarTab>
+                            <NavbarTabEl>
+                                <Link to="/">Home</Link>
+                            </NavbarTabEl>
+                            <NavbarTabEl>
+                                <Link to="/Tweets">Tweets</Link>
+                            </NavbarTabEl>
+                        </NavbarTab>
+                    </NavbarN>
                 </Wrapper>
             </Container>
             <Padding />

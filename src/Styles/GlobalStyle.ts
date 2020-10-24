@@ -11,12 +11,21 @@ export const GlobalStyle = createGlobalStyle`
 
     }
     *::-webkit-scrollbar{
-        width: 3px;
+        width: 30px;
         height: 5px;
+        @media (max-width: 768px){
+            width: 5px;
+        }
     }
     *::-webkit-scrollbar-thumb{
         border-radius: 50rem;
         background-color: var(--rgba-0);
+    }
+    *{
+        scrollbar-color:var(--rgba-0) transparent;
+        @media (max-width: 768px){
+            scrollbar-width: thin;
+        }
     }
     html, body, #root{
         height: 100%;

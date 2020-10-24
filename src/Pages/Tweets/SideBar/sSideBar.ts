@@ -128,5 +128,5 @@ export const UserShow = styled.div`
     &.active {
         transform: translateY(0);
     }
-    
 `
+

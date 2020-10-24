@@ -19,3 +19,20 @@ export const LogoIcon = styled(Android)`
     width: 40px;
     height: 40px;
 `
+export const NavbarN = styled.div`
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+`
+export const NavbarTab = styled.div`
+    display: flex;
+    list-style: none;
+`
+export const NavbarTabEl = styled.div`
+    font-weight: bold;
+    & > a {
+        padding: 2px 10px;
+        text-decoration: none;
+        color: var(--text);
+    }
+`

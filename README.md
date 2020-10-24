@@ -1,9 +1,10 @@
 # Project create by Marcos Proença
+
 ## Before you start, download the dependencies | **`yarn`**
 
 ### Preview
 
-![Layout](./src/Assets/img/Layut.pg)
+![Layout](./src/Assets/img/Layout.png)
 **technologies used**
 
 -   HTML
@@ -11,4 +12,5 @@
 -   TypeScript
 -   git
 -   yarn
+
 ### Front-end

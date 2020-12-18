@@ -4,7 +4,7 @@
 
 ### Preview
 
-![Layout](./src/Assets/img/Layout.png)
+![Layout](./src/Assets/img/Layout_02.png)
 **technologies used**
 
 -   HTML

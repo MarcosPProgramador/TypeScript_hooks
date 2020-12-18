@@ -11,6 +11,7 @@
 -   CSS
 -   TypeScript
 -   git
+-   craco
 -   yarn
 
 ### Front-end

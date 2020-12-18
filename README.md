@@ -6,12 +6,12 @@
 
 -   desktop
 
-    ![layout-desktop](./public/assets/img/layout-desktop.png)
+    ![layout-desktop](./public/Assets/img/layout-desktop.png)
 
 -   mobile
 
 
-    ![layout-mobile](./public/assets/img/layout-mobile.png)
+    ![layout-mobile](./public/Assets/img/layout-mobile.png)
 
 **Technologies used:**
 

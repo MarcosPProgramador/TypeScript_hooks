@@ -2,16 +2,23 @@
 
 ## Before you start, download the dependencies | **`yarn`**
 
-### Preview
+## Preview
 
-![Layout](./src/Assets/img/Layout_02.png)
-**technologies used**
+-   desktop
+
+    ![layout-desktop](./public/assets/img/layout-desktop.png)
+
+-   mobile
+
+
+    ![layout-mobile](./public/assets/img/layout-mobile.png)
+
+**Technologies used:**
 
 -   HTML
 -   CSS
 -   TypeScript
 -   git
--   craco
 -   yarn
 
 ### Front-end

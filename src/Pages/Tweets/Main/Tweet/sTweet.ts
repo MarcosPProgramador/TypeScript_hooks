@@ -16,9 +16,7 @@ export const UserAvatar = styled.div`
     width: 30px;
     height: 30px;
     & > img {
-        /* background: var(--secondary)
-            url('https://static.tumblr.com/3zmswwt/5HCn2iapa/screen-pattern.png')
-            repeat; */
+
         width: 100%;
         height: 100%;
     }
@@ -42,9 +40,7 @@ export const UserImage = styled.div`
     height: min(max(50vw, 137px), 300px);
     background-color: var(--secondary);
     & > div {
-        background: var(--secondary)
-            url('https://static.tumblr.com/3zmswwt/5HCn2iapa/screen-pattern.png')
-            repeat;
+
         width: 100%;
         height: 100%;
     }
